@@ -1,0 +1,245 @@
+{
+    "name": "sleep_check",
+    "securityToken": "sleep_check Token",
+    "sourceConnection": {
+        "name": "sleep_check_raw_image",
+        "description": "アノテーションのない学習用データ\nmk_data プログラムの結果(data_archive)",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiN2Y3NjAyZjVmM2ZlMjllM2ZiZWM2YWZjNGJmNGM1MTZlYmZhMDNiMDZhNjE1ZWZiOGQyODllYWY0YzVkZDM2OGMzNjA4ZTQ0ODYxYzlmOTk4NDZmZjAzMGVjOGYwMDlkYWNmYjhkMjYxNGI2YmRiYWNhN2U3ZDJjMDI0YzFiM2Y2M2ZmNTZkZjZmZDFiMGQ1ZWZhNjRiNGVlY2IzZTVjM2VkNzczYmUzOTg1OWM4ZDk5NTBkODk3NTFlYzhhYmUxOTI4NmMyY2IxNGNjYzc4MWI1MDM4ZGZjZjg3ZTgwZTIiLCJpdiI6ImEzZmZmZDEyZDRhMzlmMWRhYThjZDI3M2MzYmZkYTc4YTk1MDk4NTJhOGMyNWNlMiJ9"
+        },
+        "id": "R1A-dVJbG"
+    },
+    "targetConnection": {
+        "name": "sleep_check_annotated_image",
+        "description": "アノテーション後の画像データ(mk_dataの結果を活用)",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNzIzMDM1ZjE5MmE1ZDExYzI1YjQ0YWMzMjk4Mzg5ZDEwZWNiMTcyNTNlYzM2NTgwNzZiOGU1NjhlMDU0YTkwMTMxOGU0YTkwMjQ3YjRiNjhkMjc5ZjQxYjVhNWY0ZmYyOGNlNDYyOWFmNGIzNzUxNDRmNDM2YTVlNGYzODdkZjVlNmQ0MzJjMzVhZTllNGVmZmY2ODcxYzA3YTY3MDI1MjMwYTY4YzA4ZDhiY2I2YWMzNTU0ZDZmNjdmZTQzYTgyIiwiaXYiOiI2YjQ5NDI5YmE2ZDI3MmZlNTMzODc0ZDhiYzUyYTdjNmI1YWMzNDZhYjhhZWJlMDMifQ=="
+        },
+        "id": "OPgn8FvI4"
+    },
+    "description": "うつ伏せ睡眠検出プログラム(for Linux)",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "safe",
+            "color": "#5db300"
+        },
+        {
+            "name": "caution",
+            "color": "#e81123"
+        }
+    ],
+    "id": "46kR4ogvX",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmY0YmUyYzUwYzBjMjFjNWI1ZTI2ZTE0NzQzMTZiMzViZWI2YzMyOTEwMGFiNjNmYmUzZDNjZTQzMjk2NTdjZDVlNWVhMzk1MmQ0M2M5NGE0OTIzZjRmNWNmYjUzMDljMWRlYjUyNDVmZThlZDdiNWJjMzZlMmNkNWZkNzZkMTg5MDZhNGM1YThiNTlmZjFhNzM0Y2I5OTdlZjBiNmU3NiIsIml2IjoiYTM5YmRmNDQ1NTMzNDEyNDM5NTA4ZDRjMmY5ZWM0Zjc5OTVlZTcxNWEzZjFlNTMxIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "abcd4e0c1cf2dfecc8b333a4706e8b69",
+    "assets": {
+        "8671586d66c7d1829b3bbd236c84835e": {
+            "format": "jpg",
+            "id": "8671586d66c7d1829b3bbd236c84835e",
+            "name": "11350830.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11350830.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "08473676e358355b517c1959dc8a66de": {
+            "format": "jpg",
+            "id": "08473676e358355b517c1959dc8a66de",
+            "name": "11350870.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11350870.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4981d39a1a474ac74637f7676937c596": {
+            "format": "jpg",
+            "id": "4981d39a1a474ac74637f7676937c596",
+            "name": "11350911.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11350911.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1379898d546f64acb1a13cebc6a42bfc": {
+            "format": "jpg",
+            "id": "1379898d546f64acb1a13cebc6a42bfc",
+            "name": "11350957.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11350957.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2207fbd24d9fb337ff1b2ecaf5f19f97": {
+            "format": "jpg",
+            "id": "2207fbd24d9fb337ff1b2ecaf5f19f97",
+            "name": "11350999.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11350999.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd4e9c497930a5c81a49ff41c88b2267": {
+            "format": "jpg",
+            "id": "dd4e9c497930a5c81a49ff41c88b2267",
+            "name": "11355481.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355481.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a91230d5f2d9cf49bc9cb62c50dd1bcb": {
+            "format": "jpg",
+            "id": "a91230d5f2d9cf49bc9cb62c50dd1bcb",
+            "name": "11355525.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355525.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "070e84f4a6c045d2c6927ebc84b41ddb": {
+            "format": "jpg",
+            "id": "070e84f4a6c045d2c6927ebc84b41ddb",
+            "name": "11355641.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355641.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "95f278f959920e8f65945d4c7f0f9729": {
+            "format": "jpg",
+            "id": "95f278f959920e8f65945d4c7f0f9729",
+            "name": "11355684.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355684.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b4376cf5e6b38877fb424958e32abaa1": {
+            "format": "jpg",
+            "id": "b4376cf5e6b38877fb424958e32abaa1",
+            "name": "11355728.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355728.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da18ea2f8e13770955c0cba351e14571": {
+            "format": "jpg",
+            "id": "da18ea2f8e13770955c0cba351e14571",
+            "name": "11355773.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11355773.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5873950da4fa3de86e5945b27e8452e1": {
+            "format": "jpg",
+            "id": "5873950da4fa3de86e5945b27e8452e1",
+            "name": "11357744.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11357744.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d1d2bc5de0635fe902135fdb8783a79": {
+            "format": "jpg",
+            "id": "3d1d2bc5de0635fe902135fdb8783a79",
+            "name": "11357788.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11357788.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7ca84a5e22f3aca239c3ccff41fa403": {
+            "format": "jpg",
+            "id": "c7ca84a5e22f3aca239c3ccff41fa403",
+            "name": "11357831.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11357831.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1,
+            "predicted": true
+        },
+        "be3b5b685a7ae0c13bd99d88ee85857e": {
+            "format": "jpg",
+            "id": "be3b5b685a7ae0c13bd99d88ee85857e",
+            "name": "11357879.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11357879.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        },
+        "abcd4e0c1cf2dfecc8b333a4706e8b69": {
+            "format": "jpg",
+            "id": "abcd4e0c1cf2dfecc8b333a4706e8b69",
+            "name": "11357923.jpg",
+            "path": "file:C:/Users/yuki/python-projects/sleep_check_programs/data/mk_data/data_archive/11357923.jpg",
+            "size": {
+                "width": 1280,
+                "height": 960
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
